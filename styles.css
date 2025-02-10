@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap')
+body{
+    margin:0px;
+}
+main{
+    margin-left:20px;
+    margin-right:20px;
+}
+h1{ 
+    text-aling: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #FFEFC8;
+    padding: 0px;
+    margin: 10px;
+    overflow: hidden;
+}
+.navbar a{
+    color:#D70654;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{ 
+    background-color: #FFD95F;
+}
+.navbar li{
+    float: left;
+}
