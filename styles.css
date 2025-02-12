@@ -4,8 +4,9 @@ body {
     margin:0px;
 }
 main {
-    margin-left:20px;
-    margin-right:20px;
+    background-color: white;
+    margin-left:10px;
+    margin-right:10px;
 }
 h1 { 
     text-align: center;
@@ -14,20 +15,25 @@ h1 {
     list-style-type: none;
     background-color: #FFEFC8;
     padding: 0px;
-    margin: 0px;
+    margin: px;
     overflow: hidden;
 }
 .navbar a{
-    color:#D70654;
+    color:#f00a5f;
     text-decoration: none;
-    padding: 15px;
-    margin: 10px;
+    padding: 20px;
+    margin: 3px;
     display: block;
     text-align: center;
 }
 .navbar a:hover{ 
-    background-color: #FFD95F;
+    background-color: #FFEFC8;
 }
 .navbar li{
     float: left;
 }
+.header {
+    padding: 25px; 
+    text-align: center; 
+    background: #FFD95F; 
+    color: #1abc9c;
