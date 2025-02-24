@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap')
 
 body {
-    margin:0px;
 }
 main {
     background-color: white;
@@ -15,25 +14,32 @@ h1 {
     list-style-type: none;
     background-color: #FFEFC8;
     padding: 0px;
-    margin: px;
+    margin: 0;
     overflow: hidden;
 }
 .navbar a{
     color:#f00a5f;
     text-decoration: none;
-    padding: 20px;
-    margin: 3px;
-    display: block;
+    padding: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
     text-align: center;
+    ;
 }
 .navbar a:hover{ 
     background-color: #FFEFC8;
+    position: fixed;
 }
 .navbar li{
     float: left;
 }
-.header {
-    padding: 25px; 
-    text-align: center; 
-    background: #FFD95F; 
-    color: #1abc9c;
+.picture{
+    background-color: #FFD95F;
+    
+    
+}
+#header { 
+    text-align: start;
+    text-decoration: #1abc9c;
+        
