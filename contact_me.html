@@ -1,28 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Shaniya Mack</title>
     <link rel="stylesheet" href="styles.css">
 </head>
- <h1> Contact  </h1>
-<body>
-    
-    <nav class="navbar"> 
-    
-       <ul>
-        <li><a href="index.html"> Home</a></li>
-        <li><a href="project.html"> Projects</a></li>
-        <li><a href="resume.html"> Resume</a></li>
-        <li><a href="contact_me.html"> Contacts</a></li>
+<h1> Contact </h1>
 
-       </ul>
-    </nav> 
-<main>
-    <h3> Contact Page</h3>
-    <p> ssbddschdh</p>
-</main>
+<body>
+    <nav class="navbar">
+
+        <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="project.html"> Projects</a></li>
+            <li><a href="resume.html"> Resume</a></li>
+            <li><a href="contact_me.html"> Contacts</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <h3> Contact Page</h3>
+        <form action="https://form-to-email.steam-center.workers.dev/" method="post">
+
+            <input hidden name="send-to" value="smack@brooklynsteamcenter.org">
+
+            <label>First Name</label>
+            <br>
+
+            <input type="text" required name="name" />
+            <br>
+
+            <label>Last Name</label>
+            <br>
+
+            <input type="text" required name="name2" />
+            <br>
+
+            <label>Email</label>
+            <br>
+
+            <input type="text" required name="email" />
+            <br>
+
+            <label>Phone Number</label>
+            <br>
+            <input type="tel" required name="phone" />
+            <br>
+
+            <label>Comments</label>
+            <br>
+            <textarea name="comments" required></textarea>
+            <br>
+            <input type="submit">
+            <input type="reset">
+
+        </form>
+
+    </main>
 
 </body>
+
 </html>
