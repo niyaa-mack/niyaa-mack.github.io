@@ -18,6 +18,7 @@
             <li><a href="resume.html"> Resume</a></li>
             <li><a href="contact_me.html"> Contacts</a></li>
 
+
         </ul>
     </nav>
     <main>
@@ -38,27 +39,38 @@
             <input type="text" required name="name2" />
             <br>
 
-            <label>Email</label>
-            <br>
-
+            <label class="mail">Email<i data-lucide="mail"></i></label>
+           
+            
             <input type="text" required name="email" />
             <br>
 
-            <label>Phone Number</label>
-            <br>
+            <label class="phone">Phone Number<i data-lucide="phone"></i></label>
+            
             <input type="tel" required name="phone" />
             <br>
 
-            <label>Comments</label>
-            <br>
+            <label class="comment">Comments <i data-lucide="message-square-text"></i></label>
             <textarea name="comments" required></textarea>
             <br>
             <input type="submit">
             <input type="reset">
 
+
         </form>
 
     </main>
+
+<a href="mailto:smack@brooklynsteamcenter.org" style="color: beige;">
+    <i data-lucide="mail"></i>
+</a>
+
+
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script> 
+    lucide.createIcons();
+</script>
 
 </body>
 

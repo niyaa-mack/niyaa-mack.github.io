@@ -73,3 +73,17 @@ h1 {
     flex-direction: row-reverse;
 }
 
+.mail {
+    display: flex;
+    align-items: flex-start;
+}
+
+.phone{
+    display: flex;
+    align-items: flex-start;
+}
+
+.comment{
+    display: flex;
+    align-items: flex-start;
+}
