@@ -45,10 +45,12 @@ h1 {
 
 #picture{
     width: 360px;
+    border-radius: 20px;
 }
 
 #picture2 {
     width: 360px;
+    border-radius: 10px;
 }
 
 #picture3 {
