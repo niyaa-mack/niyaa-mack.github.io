@@ -58,14 +58,19 @@ h1 {
     border-radius: 50px;
 }
 
+#picture4{
+    width: 360px;
+    border-radius: 50px;
+}
+
 #header { 
     text-align: start;
     text-decoration: #1abc9c;
 }
 
-.images {
+/* .images {
     display:flex; 
-}
+} */
 
 .pheader {
     background-color: #FFD95F;
@@ -89,3 +94,20 @@ h1 {
     display: flex;
     align-items: flex-start;
 }
+h3{
+    text-align: right;
+}
+.images{
+    display: flex;
+}
+/* .images:nth-child(even){
+    flex-direction: row-reverse;
+}
+.images img{
+    border-radius: 24px;
+}
+
+.images h3{
+    text-align: center;
+} */
+
