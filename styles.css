@@ -44,28 +44,23 @@ h1 {
 }
 
 #picture{
-    width: 360px;
+    width: 100%;
     border-radius: 20px;
 }
 
 #picture2 {
-    width: 360px;
+    width: 100%;
     border-radius: 10px;
 }
 
 #picture3 {
-    width: 360px;
+    width: 100%;
     border-radius: 50px;
 }
 
 #picture4{
-    width: 360px;
+    width: 100%;
     border-radius: 50px;
-}
-
-#header { 
-    text-align: start;
-    text-decoration: #1abc9c;
 }
 
 /* .images {
@@ -94,6 +89,11 @@ h1 {
     display: flex;
     align-items: flex-start;
 }
+
+h1{
+    text-align: left;
+}
+
 h3{
     text-align: right;
 }
@@ -111,3 +111,4 @@ h3{
     text-align: center;
 } */
 
+ 
