@@ -43,24 +43,9 @@ h1 {
     float: left;
 }
 
-#picture{
+#picture, #picture2, #picture3, #picture4 {
     width: 100%;
     border-radius: 20px;
-}
-
-#picture2 {
-    width: 100%;
-    border-radius: 10px;
-}
-
-#picture3 {
-    width: 100%;
-    border-radius: 50px;
-}
-
-#picture4{
-    width: 100%;
-    border-radius: 50px;
 }
 
 /* .images {
@@ -95,10 +80,11 @@ h1{
 }
 
 h3{
-    text-align: right;
+    text-align: left;
 }
 .images{
     display: flex;
+    height: 100px;
 }
 /* .images:nth-child(even){
     flex-direction: row-reverse;
@@ -111,4 +97,11 @@ h3{
     text-align: center;
 } */
 
- 
+ .am {
+    text-align: center;
+    color: rgb(184, 84, 12);
+ }
+
+ @media screen and (max-width: 400px) {
+
+ }
