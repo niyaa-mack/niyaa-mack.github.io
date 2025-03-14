@@ -43,8 +43,8 @@ h1 {
     float: left;
 }
 
-#picture, #picture2, #picture3, #picture4 {
-    width: 100%;
+#picture1, #picture2, #picture3, #picture4 {
+    width: 200px;
     border-radius: 20px;
 }
 
@@ -82,10 +82,14 @@ h1{
 h3{
     text-align: left;
 }
-.images{
+.imagess {
     display: flex;
+    /* height: 100px; */
+}
+.pictures{
     height: 100px;
 }
+
 /* .images:nth-child(even){
     flex-direction: row-reverse;
 }
@@ -102,6 +106,4 @@ h3{
     color: rgb(184, 84, 12);
  }
 
- @media screen and (max-width: 400px) {
-
- }
+ 
