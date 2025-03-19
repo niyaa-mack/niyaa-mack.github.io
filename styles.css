@@ -28,6 +28,7 @@ h1 {
     text-decoration: none;
     padding: 20px;
     margin: 0;
+    font-size: small;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -43,11 +44,26 @@ h1 {
     float: left;
 }
 
-#picture1, #picture2, #picture3, #picture4 {
-    width: 200px;
+#picture1 {
+    width: 400px;
     border-radius: 20px;
 }
-
+#picture2 {
+    width: 400px;
+    border-radius: 20px;
+}
+#picture3{
+    width: 400px;
+    border-radius: 20px;
+}
+#picture4 {
+    width: 400px;
+    border-radius: 20px;
+}
+#picture5 {
+    width: 400px;
+    border-radius: 20px;
+}
 /* .images {
     display:flex; 
 } */
@@ -82,12 +98,9 @@ h1{
 h3{
     text-align: left;
 }
-.imagess {
+.imagess1, .imagess2, .imagess3, .imagess4, .imagess5 {
     display: flex;
     /* height: 100px; */
-}
-.pictures{
-    height: 100px;
 }
 
 /* .images:nth-child(even){
@@ -106,4 +119,28 @@ h3{
     color: rgb(184, 84, 12);
  }
 
- 
+ @media screen and (max-width: 400px) {
+    /* for mobile phones: */
+    nav {display: block;}
+    main {width: %;}
+    aside {display: none;}
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+    /* for tablets: */
+    nav {display: block;}
+    main {width: 100%;}
+    aside {width: 25%;}
+}
+@media screen and (min-width: 601px) {
+    /* for desktop: */
+    nav {display: block;}
+    main {width: 100%;}
+    aside {width: 25%;}
+}
+
+@media screen and (max-width: 600px) {
+    #imagess4{
+        flex-direction: column-reverse;
+    }
+}
