@@ -64,6 +64,10 @@ h1 {
     width: 400px;
     border-radius: 20px;
 }
+#picture6 {
+    width: 400px;
+    border-radius: 20px;
+}
 /* .images {
     display:flex; 
 } */
@@ -98,25 +102,21 @@ h1{
 h3{
     text-align: left;
 }
-.imagess1, .imagess2, .imagess3, .imagess4, .imagess5 {
+.imagess1, .imagess2, .imagess3, .imagess4, .imagess5, .imagess6 {
     display: flex;
     /* height: 100px; */
 }
 
-/* .images:nth-child(even){
-    flex-direction: row-reverse;
-}
 .images img{
     border-radius: 24px;
 }
 
 .images h3{
     text-align: center;
-} */
+} 
 
  .am {
     text-align: center;
-    color: rgb(184, 84, 12);
  }
 
  @media screen and (max-width: 400px) {
@@ -139,8 +139,14 @@ h3{
     aside {width: 25%;}
 }
 
-@media screen and (max-width: 600px) {
-    #imagess4{
-        flex-direction: column-reverse;
-    }
+hr {
+    color:#FFD95F;
+}
+
+.pro1 {
+    text-align: center;
+}
+main > p {
+    color:#f8035d;
+    text-indent: 0%;
 }
