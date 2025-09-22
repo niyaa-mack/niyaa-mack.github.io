@@ -26,11 +26,11 @@ h1 {
 .navbar a{
     color:#f8035d;
     text-decoration: none;
-    padding: 20px;
+    padding: 30px;
     margin: 0;
-    font-size: small;
+    font-size: large;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     ;
 }
@@ -68,12 +68,17 @@ h1 {
     width: 400px;
     border-radius: 20px;
 }
+#picture7 {
+    width: 400px;
+    border-radius: 20px;
+}
 /* .images {
     display:flex; 
 } */
 
 .pheader {
     background-color: #FFD95F;
+    
 }
 
 .picture {
@@ -115,8 +120,14 @@ h3{
     text-align: center;
 } 
 
+.hey {
+    text-align: start; 
+}
+
  .am {
     text-align: center;
+    font-size: 20px;
+    
  }
 
  @media screen and (max-width: 400px) {
@@ -139,8 +150,10 @@ h3{
     aside {width: 25%;}
 }
 
-hr {
-    color:#FFD95F;
+#s {
+    justify-content: space-around;
+    border-top-width:medium;
+    border-color:blue;
 }
 
 .pro1 {
@@ -149,4 +162,29 @@ hr {
 main > p {
     color:#f8035d;
     text-indent: 0%;
+}
+#I {
+    text-align: center;
+    margin: 60;
+}
+
+li {
+    font-size: 22px;
+}
+
+#header{
+    text-align: center;
+    font-size: 40px;
+}
+
+#p {
+    justify-content: space-around;
+}
+
+#headr{
+    text-align: start;
+}
+
+a {
+    font-size: 20px;
 }
